@@ -1,0 +1,136 @@
+
+.signin{
+    height: 100vh ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.left_signin > p {
+    margin-top: 10px;
+}
+
+.center_log{
+    text-align: center;
+}
+
+.para_left_sign{
+    margin-top: 8px;
+}
+
+
+.right_signin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 40px;
+}
+
+
+
+.right_signin form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.button_signup{
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: linear-gradient(to right, #91e916 0%, #029d16  51%, #19e815  100%);
+}
+
+.right_signin form label{
+    margin-top: 10px;
+}
+
+.right_signin form input{
+    width: 300px;
+    height: 40px;
+}
+
+
+
+.flex_1 > div{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.icon_1{
+    margin-right: 10px;
+}
+
+.image{
+    width: 400px;
+    margin-left: -80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+/* home page */
+
+.home_page{
+    padding-top: 200px;
+    padding-bottom: 450px;
+    text-align: center;
+    height: 100vh;
+    background-color: #c4ffbc;
+}
+.home_page > h1{
+    font-size: 50px;
+    font-family:  'Work Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+.home_page > p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.home_page > button{
+    width: 160px;
+    height: 50px;
+    background-color: none;
+    border: none;
+    outline: none;
+    background: linear-gradient(to right, #91e916 0%, #029d16  51%, #19e815  100%);
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: large;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0.2, 0.2, 0.2) 2px 8px 24px;
+    cursor: pointer;
+}
+
+.landing_page{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background: #ffffff;
+}
+
+.flex_1 > div{
+    width: 500px;
+}
+
+.landing_page .left_landing > img{
+    width: 500px;
+    border: 14px solid lightgreen;
+    border-radius: 10px;
+}
+
+.icon_1 {
+    margin-left: 40px;
+}

@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.editing_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+
+
+.img_thumbnail{
+    margin-top: 15px;
+    padding-bottom: 20px;
+
+}
+
+.chese_img{
+    background: linear-gradient(to right, #91e916 0%, #029d16  51%, #19e815  100%);
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.img_thumbnail{
+    border: 1px solid #19e815;
+    cursor: pointer;
+
+}
+
+.input_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.input_form  div{
+    margin: 10px;
+}
+
+
+.input_form > button{
+    width: 160px;
+    height: 50px;
+    background-color: none;
+    border: none;
+    outline: none;
+    background: linear-gradient(to right, #91e916 0%, #029d16  51%, #19e815  100%);
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: large;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0.2, 0.2, 0.2) 2px 8px 24px;
+    cursor: pointer;
+
+}

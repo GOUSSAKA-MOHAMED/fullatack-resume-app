@@ -1,0 +1,76 @@
+.contact{
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 60px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.contact .img_cv{
+    border-radius: 50%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.info_cv{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.left_div{
+    flex: 0.2;
+    border-right: 2px solid greenyellow;
+}
+
+.center_div{
+    flex: 0.8;
+}
+
+.info_cv h4{
+    padding: 10px;
+}
+
+.edit{
+    height: 100vh;
+}
+
+.right_div{
+    flex: 0.2;
+    border-left: 2px solid greenyellow;
+
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.butt{
+    margin-top: 60px;
+    text-align: center;
+
+}
+
+@media print{
+    .click{
+        display: none;
+    }
+}
+
+button{
+    width: 120px;
+    height: 50px;
+    background-color: none;
+    border: none;
+    outline: none;
+    background: linear-gradient(to right, #91e916 0%, #029d16  51%, #19e815  100%);
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: large;
+    box-shadow: rgba(0, 0.2, 0.2, 0.2) 2px 8px 24px;
+    cursor: pointer;
+    margin: 5px auto;
+    display: block;
+}
